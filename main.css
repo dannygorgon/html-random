@@ -2,25 +2,42 @@
     margin: auto;
     padding: 0%;
     text-align: center;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif ;
 }
 
 body {
-    background-color: red;
+    background-color: grey;
 }
 
+header {
+    background-color:#333;
+    margin-bottom: 0.4rem;
+}
+
+footer {
+    background-color: #333;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;;
+}
 img {
-    width: 50%;
+    width: 80%;
     border-radius: 30px;
     border: 2px solid black;
     padding: 0px 5px 5px;
 }
 
 h1, h2, h3 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif ;
 }
 
 ol, ul {
     color: blue;
+}
+
+a {
+    color: white;
+    padding-right: 1.2rem;
 }
 
 .grid-box {
@@ -30,6 +47,7 @@ ol, ul {
     height: 70%;
     gap: 10px;
     padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .grid {
