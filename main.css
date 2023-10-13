@@ -35,6 +35,15 @@ ol, ul {
     color: blue;
 }
 
+p {
+    font-weight: bold;
+}
+
+.footer-text {
+    color: grey;
+}
+
+
 a {
     color: white;
     padding-right: 1.2rem;
